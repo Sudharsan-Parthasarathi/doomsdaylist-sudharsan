@@ -1,0 +1,19 @@
+/* Newbie page: a friendly note box under the movies */
+.movie-grid {
+  margin-top: 20px;
+}
+
+.note-box {
+  max-width: 800px;
+  margin: 0 auto 60px;
+  padding: 20px 24px;
+  text-align: left;
+  background-color: var(--card);
+  border-left: 4px solid var(--accent);
+  border-radius: 8px;
+  color: var(--muted);
+}
+
+.note-box strong {
+  color: var(--accent);
+}
